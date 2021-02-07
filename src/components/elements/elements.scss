@@ -1,0 +1,22 @@
+@import "../variables";
+.act-btn{
+    border-radius: 99px;
+    background: $green-cyan-gradient;
+    border: none;
+    outline: none;
+    color: $white;
+    padding: 13px 30px;
+    font-size: 1.6rem;
+    &:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
+}
+.footer .act-btn:hover{
+    opacity: 1;
+    filter: brightness(1.2);
+}
+.a-link{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,27 @@
+$mobile: 500px;
+$desktop: 1300px;
+$menu-mobile-media: 890px;
+$tablet-brp: 1280px;
+$footer-tablet-brp: 1130px;
+
+$dark-blue: hsl(233, 26%, 24%);
+$lime-green: hsl(136, 65%, 51%);
+$light-cyan: hsl(192, 70%, 51%);
+$green-cyan-gradient: linear-gradient(100deg,$lime-green 0%,$light-cyan 87%);
+
+$gray-blue-200: hsl(233, 8%, 62%);
+$gray-blue-100: hsl(220, 16%, 96%);
+
+$gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+@mixin media($width){
+    @media (max-width: $width) {
+        @content
+    }
+};
+@mixin min-media($width){
+    @media (min-width: $width){
+        @content
+    }
+}; 

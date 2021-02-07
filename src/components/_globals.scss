@@ -1,0 +1,44 @@
+@import "variables.scss";
+h1,h2,h3{
+    color: $dark-blue;
+    font-weight: normal;
+}
+h1{
+    font-size: 4.5rem;
+    @include media($mobile){font-size: 3.5rem;}
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+p{
+    color: $gray-blue-200;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    @include media($mobile){font-size: 1.4rem;}
+}
+p.small{
+    font-size: 1.6rem;
+}
+p.author{
+    font-size: 1.2rem;
+}
+%section_cont{
+    width: 100%;
+    padding: 100px 100px 50px 100px;
+    @include media($tablet-brp){padding: 50px;}
+    @include media($mobile){padding: 20px;}
+}
+%grid_setup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    @include min-media($desktop){
+        grid-template-columns: repeat(4,1fr);
+    }
+    @include media($menu-mobile-media){
+        margin-top: 50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,42 @@
+@import "../variables.scss";
+@import "../globals";
+
+.article{
+    @extend %section_cont;
+    background-color: $gray;
+    &__wrapper{
+        margin: 0 auto;
+        max-width: 1700px;
+    }
+    &__grid{
+        margin-top: 50px;
+        @extend %grid_setup;
+        grid-gap: 30px;
+    }
+    &__item{
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: $white;
+        padding-bottom: 30px;
+        img{
+            width: 100%;
+            object-fit: cover;
+            @include min-media($desktop){height: 200px};
+            @include media($desktop){height: 300px};
+            @include media($mobile){height: 200px};
+        }
+        p.author{
+            padding-top: 20px;
+        }
+        p,h3{
+            margin-bottom: 15px;
+            padding: 0 30px;
+        }
+    }
+    a:hover h3{
+        color: $light-cyan;
+    }
+}
+h3{
+    transition: .1s linear;
+}

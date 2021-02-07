@@ -1,0 +1,93 @@
+@import "../variables.scss";
+@import "../globals";
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    transition: .3s linear;
+    pointer-events: none;
+    &--active{
+        background-color: rgba(0, 0, 0, 0.568);
+    }
+}
+.showcase{
+    background-color: $gray;
+    max-width: 100vw;
+    &__wrapper{
+        margin: 0 auto;
+        max-width: 1920px;
+        @include min-media($tablet-brp){
+            height: 600px;
+            display: flex;
+            justify-content: space-between;
+        }
+        @include media($tablet-brp){
+            height: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 300px 400px;
+        }
+    }
+    &__text{
+        padding: 150px 0 0 100px;
+        width: 500px;
+        *{margin-bottom: 20px;}
+        p{width: 110%;@include media($tablet-brp){width: 100%;}}
+        button{margin-top: 20px;}
+        @include media($tablet-brp){
+            text-align: center;
+            padding: 70px 0 0 0;
+            order: 2;
+            margin: 0 auto;
+        }
+        @include media($mobile){width: 300px;}
+        @include min-media(1600px){
+            padding-top: 80px;
+            width: 750px;
+            h1{font-size: 5.5rem;}
+            p{font-size: 2.5rem;}
+        }
+    }
+    &__img{
+        position: relative;
+        @include min-media($tablet-brp){width: 850px;}
+        #background-intro{
+            background-image: url("../../images/bg-intro-desktop.svg");
+            width: 100%;
+            height: 100%;
+            background-position: 10px -240px;
+            background-repeat: no-repeat;
+            z-index: 1;
+            @include min-media($tablet-brp){
+                height: 600px;
+                display: flex;
+                justify-content: space-between;
+            }
+            @include media($tablet-brp){
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: left center;
+                background-image: url("../../images/bg-intro-mobile.svg");
+            }
+        }
+        #background-mockup{
+            transform: scale(0.9);
+            top: -150px;
+            right: -150px;
+            position: absolute;
+            z-index: 1;
+            -webkit-user-drag:none;
+            @include media($tablet-brp){
+                height: 500px;
+                left: 50%;
+                top: -48%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}

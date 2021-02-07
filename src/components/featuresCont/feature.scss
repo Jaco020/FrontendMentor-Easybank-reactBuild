@@ -1,0 +1,41 @@
+@import "../variables.scss";
+@import "../globals";
+
+.feature{
+    @extend %section_cont;
+    background-color: $gray-blue-100;
+    &__wrapper{
+        max-width: 1700px;
+        margin: 0 auto;
+    }
+    &__grid{
+        margin-top: 70px;
+        @extend %grid_setup;
+    }
+    &__item{
+        margin-right: 30px;
+        margin-bottom: 50px;
+        @include media($menu-mobile-media){
+            text-align: center;
+        }
+        img,h2{
+            margin-bottom: 25px;
+        }
+    }
+}
+h1{
+    margin-bottom: 20px;
+}
+.sectionP{
+    width: 700px;
+    @include media($menu-mobile-media){
+        width: auto;
+    }
+}
+h1,.sectionP{
+    @include media($tablet-brp){
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
