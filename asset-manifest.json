@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor-Easybank-reactBuild/static/css/main.36445cb5.chunk.css",
+    "main.js": "/FrontendMentor-Easybank-reactBuild/static/js/main.934a7896.chunk.js",
+    "main.js.map": "/FrontendMentor-Easybank-reactBuild/static/js/main.934a7896.chunk.js.map",
+    "runtime-main.js": "/FrontendMentor-Easybank-reactBuild/static/js/runtime-main.09439dc6.js",
+    "runtime-main.js.map": "/FrontendMentor-Easybank-reactBuild/static/js/runtime-main.09439dc6.js.map",
+    "static/js/2.517443fc.chunk.js": "/FrontendMentor-Easybank-reactBuild/static/js/2.517443fc.chunk.js",
+    "static/js/2.517443fc.chunk.js.map": "/FrontendMentor-Easybank-reactBuild/static/js/2.517443fc.chunk.js.map",
+    "index.html": "/FrontendMentor-Easybank-reactBuild/index.html",
+    "static/css/main.36445cb5.chunk.css.map": "/FrontendMentor-Easybank-reactBuild/static/css/main.36445cb5.chunk.css.map",
+    "static/js/2.517443fc.chunk.js.LICENSE.txt": "/FrontendMentor-Easybank-reactBuild/static/js/2.517443fc.chunk.js.LICENSE.txt",
+    "static/media/hero.scss": "/FrontendMentor-Easybank-reactBuild/static/media/bg-intro-mobile.c2ed38d0.svg",
+    "static/media/icon-api.74c8ad17.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-api.74c8ad17.svg",
+    "static/media/icon-budgeting.ad716997.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-budgeting.ad716997.svg",
+    "static/media/icon-close.c2e36e04.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-close.c2e36e04.svg",
+    "static/media/icon-hamburger.b0d311fe.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-hamburger.b0d311fe.svg",
+    "static/media/icon-onboarding.d74aed64.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-onboarding.d74aed64.svg",
+    "static/media/icon-online.b0622b15.svg": "/FrontendMentor-Easybank-reactBuild/static/media/icon-online.b0622b15.svg",
+    "static/media/image-confetti.67921b11.jpg": "/FrontendMentor-Easybank-reactBuild/static/media/image-confetti.67921b11.jpg",
+    "static/media/image-currency.1b385bf9.jpg": "/FrontendMentor-Easybank-reactBuild/static/media/image-currency.1b385bf9.jpg",
+    "static/media/image-mockups.48d35b17.png": "/FrontendMentor-Easybank-reactBuild/static/media/image-mockups.48d35b17.png",
+    "static/media/image-plane.03db115d.jpg": "/FrontendMentor-Easybank-reactBuild/static/media/image-plane.03db115d.jpg",
+    "static/media/image-restaurant.1951b576.jpg": "/FrontendMentor-Easybank-reactBuild/static/media/image-restaurant.1951b576.jpg",
+    "static/media/logo-white.40be181b.svg": "/FrontendMentor-Easybank-reactBuild/static/media/logo-white.40be181b.svg",
+    "static/media/logo.4d7cebc5.svg": "/FrontendMentor-Easybank-reactBuild/static/media/logo.4d7cebc5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09439dc6.js",
+    "static/js/2.517443fc.chunk.js",
+    "static/css/main.36445cb5.chunk.css",
+    "static/js/main.934a7896.chunk.js"
+  ]
+}
